@@ -9,9 +9,7 @@ namespace CrudApplication
     {
         public static void Register(HttpConfiguration config)
         {
-            // Web API configuration and services
-
-            // Web API routes
+            // Web API rotas
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(

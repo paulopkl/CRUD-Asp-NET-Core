@@ -26,10 +26,6 @@ namespace CrudApplication.Models
             return new ApplicationDbContext();
         }
 
-        // public System.Data.Entity.DbSet<CrudApplication.Models.Status> Status { get; set; }
-
-        public System.Data.Entity.DbSet<CrudApplication.Models.Product> Products { get; set; }
-
         public System.Data.Entity.DbSet<CrudApplication.Models.Pessoa> Pessoas { get; set; }
     }
 }
